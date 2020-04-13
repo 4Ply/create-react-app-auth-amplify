@@ -18,8 +18,15 @@
   color: white;
 }
 
-.App-link {
+span {
   color: #61dafb;
+}
+
+button {
+    margin-top: 20px;
+    padding: 30px;
+    text-transform: uppercase;
+    color: purple;
 }
 
 @keyframes App-logo-spin {

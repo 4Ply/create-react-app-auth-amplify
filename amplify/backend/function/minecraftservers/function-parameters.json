@@ -1,0 +1,12 @@
+{
+    "permissions": {
+        "auth": {
+            "cognitocf0c6096": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}

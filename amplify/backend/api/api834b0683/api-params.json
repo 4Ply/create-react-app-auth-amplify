@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/server",
+            "lambdaFunction": "minecraftservers",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "api834b0683",
+    "apiName": "api834b0683",
+    "functionArns": [
+        {
+            "lambdaFunction": "minecraftservers"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-authcra-devc-123412-authRole",
+        "unAuthRoleName": "amplify-authcra-devc-123412-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "minecraftservers",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
